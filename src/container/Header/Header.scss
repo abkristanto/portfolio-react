@@ -184,17 +184,19 @@
     object-fit: contain;
     z-index: 1;
     border-radius: 50%;
+    border: 0.5rem solid white;
+    background-color: rgba(106, 197, 106, 0.23);
   }
 
-  .overlay_circle {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 0;
-    width: 100%;
-    height: 80%;
-  }
+  // .overlay_circle {
+  //   position: absolute;
+  //   left: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   z-index: 0;
+  //   width: 100%;
+  //   height: 80%;
+  // }
 
   @media screen and (max-width: 1200px) {
     margin: 2rem 0;
